@@ -12,15 +12,27 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
-        thead {
-            background-color: rgba(163, 163, 163, 0.765);
+
+        thead, tfoot {
+            background-color: rgb(54, 54, 54);
+            color: rgb(250, 250, 250);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(54, 54, 54);
         }
 
         caption {
             font-size:0.60em;
             font-weight: 300;
             padding: 5px;
+        }
+        tbody > tr:nth-child(2n)/*odd- ímpar ou even- par*/ {
+            background-color: lightgray;
         }
 
         td,th {
