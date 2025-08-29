@@ -10,10 +10,10 @@
 
     <form action="cadastro.php" method="post">
         <p>
-            <label for="iusuario">Usuário:</label> <input type="text" name="usuario" id="iusuario" required>
+            <label for="iusuario">Usuário:</label> <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="16">
         </p>
         <p>
-            <label for="isenha">Senha:</label> <input type="password" name="Senha" id="isenha" required>
+            <label for="isenha">Senha:</label> <input type="password" name="Senha" id="isenha" required minlength="10">
         </p>
         <p>
             <input type="submit" value="Enviar">
