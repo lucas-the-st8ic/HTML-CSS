@@ -21,8 +21,23 @@ header > h1 {
     margin: auto;
 }
 
-menu {
+span#icone-menu {
     display: block;
+    background-color: #3b3b3a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#icone-menu:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+}
+
+menu {
+    display: none;
 }
 
 menu >ul {
@@ -46,11 +61,12 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
-    background-color: #fdfdfc;
+    background-color: #e1dfdd;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
     border-radius: 15px;
+    box-shadow: 2px 4px 4px #b6b4b3;
 }
 
 article > h2 {
