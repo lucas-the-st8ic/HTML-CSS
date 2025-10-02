@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+div.container-00 {
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: flex-start;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-00 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-01 {
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row-reverse nowrap;
+
+    justify-content: flex-start;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-01 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
