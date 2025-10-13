@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+
+div.container-00 {
+    width: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: flex-start;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-00 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-01 {
+    width: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: flex-end;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-01 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-02 {
+    width: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row wrap-reverse;
+
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-02 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-03 {
+    width: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+}
+
+div.container__item-03 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-04 {
+    width: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-04 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+div.container-05 {
+    width: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+div.container__item-05 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+/* --- Eixos de coluna --- */
+
+div.container-06 {
+    height: 120px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: flex-start;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-06 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-07 {
+    height: 100px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: flex-end;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-07 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-08 {
+    height: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-08 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-09 {
+    height: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-09 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-10 {
+    height: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-10 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+/* --- */
+div.container-11 {
+    height: 200px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-11 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+div.container-12 {
+    width: 200px;
+    height: 300px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-12 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+div.container-13 {
+    width: 200px;
+    height: 300px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.container__item-13 {
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+
+}
