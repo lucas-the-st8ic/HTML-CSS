@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        div.container {
+            background-color: rgb(110, 199, 255);
+            height: 400px;
+            border-radius: 10px;
+            margin: 5px;
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+        }
+
+        div.container__item {
+            background-color: rgb(228, 228, 227);
+            border: 1px solid black;
+            text-align: center;
+            margin: 5px;
+            padding: 40px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container__item" >A</div>
+        <div class="container__item" >B</div>
+        <div class="container__item" >C</div>
+        <div class="container__item" >D</div>
+        <div class="container__item" >E</div>
+        <div class="container__item" >F</div>
+        <div class="container__item" >G</div>
+        <div class="container__item" >H</div>
+        <div class="container__item" >I</div>
+        <div class="container__item" >J</div>
+        <div class="container__item" >K</div>
+        <div class="container__item" >L</div>
+        <div class="container__item" >M</div>
+    </div>
+</body>
+</html>
