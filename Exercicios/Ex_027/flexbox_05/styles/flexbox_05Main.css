@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(69, 122, 206);
+
+}
+
+main {
+    background-color: rgb(234, 233, 233);
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 380px;
+}
