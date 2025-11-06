@@ -9,13 +9,16 @@
             background-color: antiquewhite;
 
             display: flex;
+            flex-flow: row nowrap;
         }
 
         div.container__item {
             background-color: burlywood;
             border: 1px solid black;
 
-            flex: auto;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
     </style>
 </head>
