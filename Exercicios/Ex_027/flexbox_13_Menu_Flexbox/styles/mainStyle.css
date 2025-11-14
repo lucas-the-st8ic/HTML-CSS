@@ -28,6 +28,22 @@ header > nav {
     border: 1px dotted black;
 }
 
+header > nav > a {
+    background-color: rgb(129, 172, 225);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: rgb(129, 172, 225);
+    transition: background-color .5s;
+}
+
 main {
     background-color: white;
     margin: 15px;
