@@ -27,7 +27,7 @@ header {
 
 header > h1 {
     /*border: 1px dotted black; */
-
+    text-shadow: 2px 2px 1.5px rgba(31, 31, 31, 0.811);
     flex: 0 0 200px;
 }
 
