@@ -52,13 +52,30 @@ article.media-text {
     border: 2px dashed red;
 }
 
-article > div.media-text__texto, div.text-media__texto {
+article > div.media-text__texto  {
     flex: 1 1 500px;
 
     border: 2px dashed blue;
 }
 
-article > div.media-text__imagem, div.text-media__imagem {
+article > div.text-media__texto {
+    flex: 1 1 500px;
+
+    border: 2px dashed blue;
+}
+
+article > div.media__imagem {
     flex: 1 0 500px;
     border: 2px dashed blue;
+}
+
+div.media__imagem > img {
+    display: block;
+    margin: auto;
+}
+
+div.media__imagem > iframe {
+    display: block;
+    margin: auto;
+    padding: 0px 20px;
 }
