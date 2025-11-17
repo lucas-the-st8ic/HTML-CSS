@@ -42,35 +42,30 @@ article.text-media {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 25px;
 
-
-    border: 2px dashed red;
 }
 
 article.media-text {
     display: flex;
     flex-flow: row wrap-reverse;
     justify-content: space-between;
+    margin-bottom: 25px;
 
-
-    border: 2px dashed red;
 }
 
 article > div.media-text__texto  {
     flex: 1 1 500px;
 
-    border: 2px dashed blue;
 }
 
 article > div.text-media__texto {
     flex: 1 1 500px;
 
-    border: 2px dashed blue;
 }
 
 article > div.media__imagem {
-    flex: 1 0 500px;
-    border: 2px dashed blue;
+    flex: 1 0 auto;
 }
 
 div.media__imagem > img {
@@ -82,7 +77,6 @@ div.media__imagem > img {
 div.media__imagem > iframe {
     display: block;
     margin: auto;
-    padding: 1em;
     width: 90%;
 
 }
