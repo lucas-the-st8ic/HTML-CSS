@@ -24,9 +24,34 @@ header, section.normal {
 main {
     padding: 20px;
 }
+
 section.flex-content {
     background-color: rgb(237, 237, 237);
     border-radius: 5px;
-
     padding: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section > article {
+    border: 2px dashed red;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+article > div.media-text__texto, div.text-media__texto {
+    flex: 1 1 500px;
+}
+
+article > div.media-text__imagem, div.text-media__imagem {
+    flex: 1 0 500px;
 }
