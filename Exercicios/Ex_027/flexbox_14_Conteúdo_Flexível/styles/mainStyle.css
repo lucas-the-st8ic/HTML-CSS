@@ -17,6 +17,10 @@ p, h1, h2 {
     text-align: justify;
 }
 
+h1, h2 {
+    padding: 20px;
+}
+
 header, section.normal {
     padding: 20px;
 }
@@ -72,10 +76,13 @@ article > div.media__imagem {
 div.media__imagem > img {
     display: block;
     margin: auto;
+    padding: 1em;
 }
 
 div.media__imagem > iframe {
     display: block;
     margin: auto;
-    padding: 0px 20px;
+    padding: 1em;
+    width: 90%;
+
 }
