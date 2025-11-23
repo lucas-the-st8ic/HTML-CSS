@@ -6,27 +6,34 @@
     <title>Grid Layout</title>
     <style>
         div.container {
-            height: 280px;
+                    
             border: 5px solid rgba(12, 12, 12, 0.784);
             padding: 3px;
 
             display: grid;
-            /*grid-template-rows: auto auto auto;
-            grid-template-columns: auto auto auto;
-            Versão compacta das propriedades template row e columns abaixo */
-            grid-template: repeat(3, auto) / repeat(3, auto);
+
+            grid-template-rows: repeat(3, 1fr);
+            grid-auto-rows: 1fr;
+
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-columns: 1fr;
+
+            grid-auto-flow: column;
+
+            /* Versão compacta das propriedades template row e columns abaixo
+            grid-template: repeat(3, auto) / repeat(3, auto); */
             
             gap:5px;
 
-            /*align-items: start;
+            /* align-items: start;
             justify-items: center;
-            Versão compacta das propriedades items abaixo*/
-            place-items: start center;
+            Versão compacta das propriedades items abaixo */
+            place-items: normal normal;
 
-            /*align-content: space-between;
+            /* align-content: space-between;
             justify-content: center;
-            Versão compacta das propriedades content abaixo*/
-            place-content: space-between center;
+            Versão compacta das propriedades content abaixo */
+            place-content: normal normal;
         }
 
         div.container__item {
@@ -49,8 +56,7 @@
         <div class="container__item">G</div>
         <div class="container__item">H</div>
         <div class="container__item">I</div>
-
-
+        <div class="container__item">J</div>
     </div>
 </body>
 </html>
