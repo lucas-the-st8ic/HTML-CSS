@@ -84,9 +84,8 @@ main > aside.principal__side-item > p {
 
 footer {
     background-color: #031E2A;
-    text-align: center;
-    text-decoration: none;
-   
+    text-align:justify;
+  
     margin: 5px 5px 0px 5px;
     padding: 8px;
     border: 3px dashed black;
